@@ -17,10 +17,9 @@ import {Secret} from '../../app/secret';
   templateUrl: 'map.html',
 })
 export class MapPage {
-  private map: any;
+  map: any;
   private lat: number;
   private long: number;
-  private geoLocationOptions: any = {timeout: 5000};
   
   constructor(navCtrl: NavController) {
   }
@@ -40,7 +39,7 @@ export class MapPage {
   Create the map 
   Add controls to the map 
   */ 
-    Geolocation.getCurrentPosition(this.geoLocationOptions).then((position) => {
+    Geolocation.getCurrentPosition().then((position) => {
       this.long =  position.coords.longitude;
       this.lat =  position.coords.latitude;
 

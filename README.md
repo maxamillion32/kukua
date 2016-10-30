@@ -62,7 +62,7 @@ Now you can install ionic and cordova CLI
 
 and clone the app from GitHub
 
-    ionic start myApp https://github.com/madHorse54/kukua-starter --v2
+    ionic start myApp https://github.com/madHorse54/kukua --v2
     
 this will create your Ionic 2 projects in myAppTs folder.   
 

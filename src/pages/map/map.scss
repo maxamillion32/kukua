@@ -1,23 +1,23 @@
 page-map {
-}
 
-#map { 
-     position:absolute;
-     top:5px; 
-     bottom:5px; 
-     width:100%; 
-     }
-.mapboxgl-control-container {
-     z-index: 5;
-} 
-     
-.mapboxgl-ctrl-icon {
-    background: black;
-    color: white;
-}
-
-.mapboxgl-ctrl-geolocate {
-    background: yellow;
-    color: red;
+    #map { 
+         position:absolute;
+         top:5px; 
+         bottom:5px; 
+         width:100%; 
+         }
+    .mapboxgl-control-container {
+         z-index: 5;
+    } 
+         
+    .mapboxgl-ctrl-icon {
+        background: black;
+        color: white;
+    }
     
+    .mapboxgl-ctrl-geolocate {
+        background: yellow;
+        color: red;
+    }
+
 }

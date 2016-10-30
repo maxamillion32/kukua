@@ -41,6 +41,7 @@ export class MyApp {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
     if (page.title === "Logout") {
+      console.log ('Logout')
         this.auth.logout();
         this.nav.goToRoot(WelcomePage);      
     } else {
