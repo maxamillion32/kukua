@@ -1,7 +1,7 @@
-IONIC 2  - STARTER TEMPLATE ![GitHub tag](https://img.shields.io/badge/license-MIT-blue.svg)
+IONIC 2  - STARTER TEMPLATE ![GitHub tag](https://img.shields.io/badge/version-nightly--0.0.1-red.svg)  ![GitHub tag](https://img.shields.io/badge/license-MIT-blue.svg)
 ============================
 This starter template provide a basis on which build awesome apps with [ionic](http://ionicframework.com/);
-at the moment the starter template demonstrate how to build: 
+at the moment the starter template demonstrates how to build: 
 
 - welcome screen on which logon o signup
 - signup and logon through auth services provided by  [ionic.io](http://ionic.io/cloud#authentication)
@@ -32,10 +32,10 @@ Index
 
 
 If you like you can view the app with ionic view (see http://view.ionic.io). 
-The App_id is *fb578e52*
+The App_id is **fb578e52**
 
 
-# Prerquisites
+# Prerequisites
 
 
 The following prerequisites must be met
