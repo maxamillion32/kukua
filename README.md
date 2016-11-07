@@ -1,4 +1,4 @@
-IONIC 2  - STARTER TEMPLATE ![GitHub tag](https://img.shields.io/badge/version-nightly--0.0.1-red.svg)  ![GitHub tag](https://img.shields.io/badge/license-MIT-blue.svg)
+IONIC 2  - STARTER TEMPLATE ![GitHub tag](https://img.shields.io/badge/version-nightly--0.0.2-red.svg)  ![GitHub tag](https://img.shields.io/badge/license-MIT-blue.svg)
 ============================
 This starter template provide a basis on which build awesome apps with [ionic](http://ionicframework.com/);
 at the moment the starter template demonstrates how to build: 
