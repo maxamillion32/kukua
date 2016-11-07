@@ -8,7 +8,7 @@ import { RestService} from '../../providers/rest/rest'
   providers:[RestService]
 })
 export class ContactPage {
-  public people: any;
+  private people: any;
 
   constructor(public navCtrl: NavController, public restService:RestService) {
     this.loadPeople ();

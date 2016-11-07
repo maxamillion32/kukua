@@ -5,11 +5,8 @@ import { Geolocation } from 'ionic-native';
 import mapboxgl from 'mapbox-gl/dist/mapbox-gl.js';
 import {Secret} from '../../app/secret';
 /* 
-
-  Thanks to https://github.com/dobrud/typed-mapbox-gl for install mapboxgl from npm and typed defintions
   Add  this to index.html:
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.25.0/mapbox-gl.css' rel='stylesheet' />
-
 */
 
 @Component({
@@ -22,7 +19,7 @@ export class MapPage {
   private long: number;
   private geoLocationOptions: any = {timeout: 5000};
   
-  constructor(navCtrl: NavController) {
+  constructor(public navCtrl: NavController) {
   }
  
 //   ngOnInit() { this.loadMap(); }

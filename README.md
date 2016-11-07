@@ -7,7 +7,8 @@ at the moment the starter template demonstrates how to build:
 - signup and logon through auth services provided by  [ionic.io](http://ionic.io/cloud#authentication)
 - side menu and tabs layout
 - displaying maps using [MAPBOX-GL APIs](https://www.mapbox.com/mapbox-gl-js/api/)
-- access to a backend API making an HTTP request and using a provider
+- access to a backend API making an HTTP request and using a provider; two examples: posts from a WordPress site and
+contacts from https://randomuser.me
 
 
 Index
@@ -101,9 +102,9 @@ Add to myAppTs/www/index.html after the body taf
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.25.0/mapbox-gl.css' rel='stylesheet' />
 
     
- Create declarations.d.tsin myAppTs/src and add this line to the file
+ Create declarations.d.ts in myAppTs/src and add this line to the file
 
-    declare module 'theLibraryName';
+    declare module 'mapbox-gl';
 
 or install Typescript definition from
 

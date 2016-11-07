@@ -6,13 +6,16 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
+import { PostsPage } from '../pages/posts/posts';
+import { PostDetailsPage } from '../pages/post-details/post-details';
 import { ProfilePage } from '../pages/profile/profile';
 import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs/tabs';
 import { WelcomePage } from '../pages/welcome/welcome';
 
 
-import { RestService } from '../providers/rest/rest'
+import { RestService } from '../providers/rest/rest';
+import { GetPosts } from '../providers/rest/getposts';
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
 const cloudSettings: CloudSettings = {
@@ -30,6 +33,8 @@ const cloudSettings: CloudSettings = {
     HomePage,
     LoginPage,
     MapPage,
+    PostsPage,
+    PostDetailsPage,
     ProfilePage,
     SignupPage,
     TabsPage,
@@ -47,13 +52,17 @@ const cloudSettings: CloudSettings = {
     HomePage,
     LoginPage,
     MapPage,
+    PostsPage,
+    PostDetailsPage,
     ProfilePage,
     SignupPage,
     TabsPage,
     WelcomePage
   ],
   providers: [
-    RestService ]
+    RestService,
+    GetPosts
+    ]
 })
 export class AppModule {
   
