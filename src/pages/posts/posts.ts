@@ -33,14 +33,11 @@ export class PostsPage {
     .then(data => {
       for (let i in data) { 
         this.posts.push (data [i] );
-        infiniteScroll.complete();
         }
-    }).catch (() => {
-        infiniteScroll.complete();
-      });
-    }
-   
- 
+       infiniteScroll.complete();
+    });
+  }
+    
   postSelected (event, post) {
     this.navCtrl.push(PostDetailsPage, {
       post: post
