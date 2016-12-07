@@ -1,3 +1,8 @@
+## nightly-0.0.3
+
+### Features
+* **map page**: added a geocoding comtrol to the map; using [mapbox-gl Geocoder plugin](https://www.mapbox.com/mapbox-gl-js/plugins/#mapbox-gl-geocoder)
+
 ## nightly-0.0.2
 
 ### Features

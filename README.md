@@ -1,4 +1,4 @@
-IONIC 2  - STARTER TEMPLATE ![GitHub tag](https://img.shields.io/badge/version-nightly--0.0.2-red.svg)  ![GitHub tag](https://img.shields.io/badge/license-MIT-blue.svg)
+IONIC 2  - STARTER TEMPLATE ![GitHub tag](https://img.shields.io/badge/version-nightly--0.0.3-red.svg)  ![GitHub tag](https://img.shields.io/badge/license-MIT-blue.svg)
 ============================
 This starter template provide a basis on which build awesome apps with [ionic](http://ionicframework.com/);
 at the moment the starter template demonstrates how to build: 
@@ -18,7 +18,7 @@ Index
 <!-- toc -->
 
 * [Preview the app](#preview-the-app)
-* [Prerquisites](#prerquisites)
+* [Environment](#environment)
 * [Install](#install)
 * [Post install](#post-install)
   * [Get mapbox-gl](#get-mapbox-gl)
@@ -36,18 +36,15 @@ If you like you can view the app with ionic view (see http://view.ionic.io).
 The App_id is **fb578e52**
 
 
-# Prerequisites
+# Environment
 
-
-The following prerequisites must be met
-
-- Ionic Framework Version: 2.0.0-rc.1
-- Ionic CLI Version: 2.1.4
-- Ionic App Lib Version: 2.1.2
-- Ionic App Scripts Version: 0.0.36
+- Ionic Framework Version: 2.0.0-rc.3
+- Ionic CLI Version: 2.1.13
+- Ionic App Lib Version: 2.1.7
+- Ionic App Scripts Version: 0.0.46
 - Node Version: v6.9.1
-- Cordova version: 6.3.1
-- MapboxGL version 0.26.0 
+- Cordova version: 6.4.0
+- MapboxGL version 0.28.0 
 
 
 # Install
