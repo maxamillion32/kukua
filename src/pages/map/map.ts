@@ -21,6 +21,7 @@ export class MapPage {
   private geoLocationOptions: any = {timeout: 5000};
 
   constructor(public navCtrl: NavController) {
+    
   }
 
    ionViewDidLoad() {
